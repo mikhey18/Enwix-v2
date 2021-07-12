@@ -1,0 +1,3021 @@
+.error {
+    padding-top: 70px;
+    font-family: "Montserrat";
+    line-height: 130%;
+    color: #000;
+    background-color: #fff;
+    padding-bottom: 90px;
+}
+.error__item {
+    max-width: 280px;
+    text-align: center;
+    margin: 0 auto;
+}
+@media (min-width: 500px) {
+    .error__item {
+        max-width: 682px;
+        margin: 0 auto;
+    }
+}
+.error__block-images {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+@media (min-width: 600px) {
+    .error__block-images {
+        margin-bottom: 65px;
+        justify-content: space-around;
+    }
+}
+.error__images {
+    width: 54px;
+    height: 102px;
+    margin-right: 20px;
+}
+@media (min-width: 600px) {
+    .error__images {
+        width: 141px;
+        height: 266px;
+    }
+}
+.error__images:last-child {
+    margin-right: 0;
+}
+.error__images img {
+    width: 100%;
+    height: 100%;
+}
+.error__images-ellipse {
+    width: 103px;
+    height: 103px;
+    position: relative;
+    left: -13px;
+}
+@media (min-width: 600px) {
+    .error__images-ellipse {
+        width: 268px;
+        height: 268px;
+    }
+}
+.error__images-ellipse img {
+    width: 100%;
+    height: 100%;
+}
+.error__images-car {
+    width: 118px;
+    height: 103px;
+    position: absolute;
+    margin-right: 0;
+}
+@media (min-width: 600px) {
+    .error__images-car {
+        width: 306px;
+        height: 278px;
+    }
+}
+.error__images-car img {
+    width: 100%;
+    height: 100%;
+}
+.error__title {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 20px;
+    line-height: 130%;
+}
+@media (min-width: 500px) {
+    .error__title {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+}
+.error__text {
+    max-width: 280px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+@media (min-width: 500px) {
+    .error__text {
+        max-width: 682px;
+        margin-bottom: 60px;
+        padding: 0px 20px;
+    }
+}
+.error__text p {
+    font-size: 16px;
+    font-weight: 400;
+}
+@media (min-width: 1200px) {
+    .error__text p {
+        font-size: 18px;
+    }
+}
+.error__button {
+    border: 1px solid #FF7300;
+    max-width: 280px;
+    max-height: 48px;
+    margin: 0 auto;
+    background-color: transparent;
+    transition: all 0.3s linear;
+}
+@media (min-width: 700px) {
+    .error__button {
+        max-width: 290px;
+        max-height: 62px;
+    }
+}
+.error__button:hover {
+    background: #FF7300;
+    color: #fff;
+    transition: all 0.3s linear;
+}
+.error__button a {
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+    padding: 14px 90px;
+    transition: all 0.3s linear;
+}
+@media (min-width: 700px) {
+    .error__button a {
+        padding: 20px 86px;
+        font-size: 16px;
+    }
+}
+.error__button a:hover {
+    color: #fff;
+    transition: all 0.3s linear;
+}
+
+.guarantee {
+    margin-top: 15px;
+    color: #000;
+    font-family: "Montserrat";
+}
+@media (min-width: 350px) {
+    .guarantee {
+        margin-top: 50px;
+    }
+}
+.guarantee__item {
+    max-width: 280px;
+    margin: 0px 20px;
+}
+@media (min-width: 350px) {
+    .guarantee__item {
+        max-width: 800px;
+        margin: 0 auto;
+        margin-top: -12px;
+        padding: 0px 20px;
+    }
+}
+@media (min-width: 1200px) {
+    .guarantee__item {
+        padding: 0;
+    }
+}
+.guarantee__title {
+    font-family: "BebasNeuePro-Bold";
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 120%;
+    margin-bottom: 30px;
+}
+@media (min-width: 1200px) {
+    .guarantee__title {
+        font-size: 62px;
+        line-height: 120%;
+        margin-bottom: 40px;
+    }
+}
+.guarantee__subtitle {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+@media (min-width: 1200px) {
+    .guarantee__subtitle {
+        font-size: 20px;
+    }
+}
+.guarantee__text {
+    margin-bottom: 50px;
+}
+@media (min-width: 1200px) {
+    .guarantee__text {
+        margin-bottom: 80px;
+    }
+}
+.guarantee__text:last-child {
+    margin-bottom: 20px;
+}
+.guarantee__text p {
+    font-size: 16px;
+    line-height: 130%;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+@media (min-width: 1200px) {
+    .guarantee__text p {
+        font-size: 18px;
+    }
+}
+
+.guarantee__subtitle-list {
+    margin-top: -30px;
+}
+@media (min-width: 1200px) {
+    .guarantee__subtitle-list {
+        margin-top: -60px;
+    }
+}
+.guarantee__subtitle-list ul {
+    max-width: 260px;
+    margin-bottom: 20px;
+    margin-left: 21px;
+}
+@media (min-width: 350px) {
+    .guarantee__subtitle-list ul {
+        max-width: none;
+    }
+}
+.guarantee__subtitle-list ul li {
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 130%;
+    text-indent: -20px;
+}
+@media (min-width: 1200px) {
+    .guarantee__subtitle-list ul li {
+        font-size: 18px;
+    }
+}
+.guarantee__subtitle-list ul li::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: #FF7300;
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-right: 12px;
+}
+
+.guarantee-main__menu ul {
+    border-radius: 38px 0px 0px 38px;
+    height: 556px;
+}
+.guarantee-main__menu ul.active {
+    border-radius: 0;
+    border-bottom: 1px solid #828282;
+    height: auto;
+}
+
+.modernization-tab svg {
+    position: relative;
+    top: -12px;
+}
+
+.spare-parts__item-guarantee,
+.service-request__item-guarantee,
+.modernization-request__item-guarantee,
+.service__item-guarantee,
+.support__item-guarantee {
+    display: none;
+}
+
+.support {
+    margin-top: 15px;
+    font-family: "Montserrat";
+}
+@media (min-width: 1200px) {
+    .support {
+        margin-top: 50px;
+    }
+}
+.support__item {
+    max-width: 280px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: 0 auto;
+}
+@media (min-width: 400px) {
+    .support__item {
+        max-width: none;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media (min-width: 1200px) {
+    .support__item {
+        margin-top: -12px;
+    }
+}
+.support__title {
+    font-family: "BebasNeuePro-Bold";
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 120%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+@media (min-width: 1200px) {
+    .support__title {
+        font-size: 62px;
+        margin-bottom: 40px;
+    }
+}
+.support__text {
+    max-width: 280px;
+}
+@media (min-width: 400px) {
+    .support__text {
+        max-width: 630px;
+        margin-bottom: 50px;
+    }
+}
+.support__text p {
+    font-size: 16px;
+    line-height: 130%;
+    margin-bottom: 20px;
+}
+.support__text p:last-child {
+    margin-bottom: 24px;
+}
+@media (min-width: 400px) {
+    .support__form {
+        max-width: 800px;
+    }
+}
+.support__form-group {
+    position: relative;
+}
+.support__form-group input, .support__form-group select {
+    box-sizing: border-box;
+    width: 280px;
+    height: 48px;
+    border: none;
+    margin-bottom: 30px;
+    font-family: "Montserrat";
+    font-size: 13px;
+    line-height: 130%;
+    padding: 15px 0px 16px 38px;
+}
+@media (min-width: 400px) {
+    .support__form-group input, .support__form-group select {
+        width: 100%;
+        height: 60px;
+        font-size: 16px;
+        padding: 19px 0px 20px 56px;
+    }
+}
+.support__form-group input::placeholder, .support__form-group select::placeholder {
+    font-family: "Montserrat";
+    font-size: 13px;
+    line-height: 130%;
+    color: #000;
+}
+@media (min-width: 400px) {
+    .support__form-group input::placeholder, .support__form-group select::placeholder {
+        font-size: 16px;
+    }
+}
+.support__button {
+    margin-bottom: 50px;
+}
+.support__button button {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 130%;
+    color: #fff;
+    width: 280px;
+    height: 48px;
+    padding: 16px 72px;
+    background-color: #FF7300;
+    border: 1px solid transparent;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.support__button button:hover {
+    background-color: #fff;
+    transition: all 0.3s linear;
+    color: #000;
+    border: 1px solid #FF7300;
+}
+@media (min-width: 400px) {
+    .support__button button {
+        width: 100%;
+        height: 60px;
+        font-size: 16px;
+    }
+}
+@media (min-width: 1200px) {
+    .support__button button {
+        width: 318px;
+    }
+}
+.support__footer-text p {
+    font-size: 16px;
+    line-height: 130%;
+    margin-bottom: 16px;
+}
+@media (min-width: 1200px) {
+    .support__footer-text p {
+        font-size: 18px;
+    }
+}
+.support__footer-contact {
+    max-width: 180px;
+}
+@media (min-width: 1200px) {
+    .support__footer-contact {
+        max-width: 200px;
+    }
+}
+.support__footer-contact img {
+    margin-right: 12px;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 3px;
+}
+@media (min-width: 400px) {
+    .support__footer-contact img {
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: 4px;
+    }
+}
+.support__footer-contact a {
+    display: inline-block;
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FF7300;
+}
+@media (min-width: 1200px) {
+    .support__footer-contact a {
+        font-size: 18px;
+    }
+}
+
+.support__form-group-icon-user,
+.support__form-group-icon-phone,
+.support__form-group-icon-mail,
+.support__form-group-icon-chat,
+.support__form-group-icon-question {
+    position: absolute;
+    top: 16px;
+    left: 12px;
+}
+.support__form-group-icon-user img,
+.support__form-group-icon-phone img,
+.support__form-group-icon-mail img,
+.support__form-group-icon-chat img,
+.support__form-group-icon-question img {
+    width: 16px;
+    height: 16px;
+}
+@media (min-width: 400px) {
+    .support__form-group-icon-user img,
+.support__form-group-icon-phone img,
+.support__form-group-icon-mail img,
+.support__form-group-icon-chat img,
+.support__form-group-icon-question img {
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: 4px;
+        left: 6px;
+    }
+}
+
+.news-main__menu-support ul {
+    box-shadow: 0px 0.2px 4px rgba(247, 249, 254, 0.25);
+    border-radius: 38px 0px 0px 38px;
+    height: 556px;
+}
+
+@media (min-width: 1200px) {
+    .support__form-group-name input,
+.support__form-group-chat select {
+        width: 800px;
+        height: 60px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .support__form-group-phone input,
+.support__form-group-mail input {
+        width: 385px;
+        height: 60px;
+    }
+}
+
+.service-request__form-group-icon-arrow {
+    position: absolute;
+    top: 18px;
+    right: 15px;
+    width: 10px;
+    height: 16px;
+}
+.service-request__form-group-icon-arrow img {
+    width: 100%;
+}
+@media (min-width: 400px) {
+    .service-request__form-group-icon-arrow {
+        top: 23px;
+        width: 15px;
+    }
+}
+
+.support-main__menu ul {
+    border-radius: 38px 0px 0px 38px;
+    height: 556px;
+}
+
+.support-main__menu ul.active {
+    border-radius: 0;
+    border-bottom: 1px solid #828282;
+    height: auto;
+}
+
+@media (min-width: 1200px) {
+    .support__form-group-phone-mail,
+.support__form-group-question-button {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.spare-parts__item-support,
+.service-request__item-support,
+.modernization-request__item-support,
+.service__item-support,
+.guarantee__item-support {
+    display: none;
+}
+
+.support__form-group-question textarea {
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    max-height: 200px;
+    min-height: 48px;
+    height: 48px;
+    margin-bottom: 30px;
+    font-family: "Montserrat";
+    font-size: 13px;
+    line-height: 130%;
+    padding: 15px 0px 16px 38px;
+    resize: vertical;
+}
+@media (min-width: 400px) {
+    .support__form-group-question textarea {
+        height: 60px;
+        min-height: 60px;
+        max-height: 200px;
+        font-size: 16px;
+        padding: 20px 0px 20px 56px;
+        resize: vertical;
+    }
+}
+@media (min-width: 1200px) {
+    .support__form-group-question textarea {
+        width: 452px;
+        min-width: 452px;
+        max-width: 452px;
+        height: 60px;
+        min-height: 60px;
+        max-height: 200px;
+        resize: vertical;
+    }
+}
+
+.header.out {
+    transform: translateY(-100%);
+}
+
+.spare-parts {
+    margin-top: 15px;
+    font-family: "Montserrat";
+}
+@media (min-width: 1200px) {
+    .spare-parts {
+        margin-top: 50px;
+    }
+}
+.spare-parts__item {
+    max-width: 280px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: 0 auto;
+}
+@media (min-width: 400px) {
+    .spare-parts__item {
+        max-width: none;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media (min-width: 1200px) {
+    .spare-parts__item {
+        margin-top: -12px;
+    }
+}
+.spare-parts__title {
+    font-family: "BebasNeuePro-Bold";
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 120%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+@media (min-width: 1200px) {
+    .spare-parts__title {
+        font-size: 62px;
+        margin-bottom: 40px;
+    }
+}
+.spare-parts__text {
+    max-width: 280px;
+}
+@media (min-width: 400px) {
+    .spare-parts__text {
+        max-width: 630px;
+        margin-bottom: 50px;
+    }
+}
+.spare-parts__text p {
+    font-size: 16px;
+    line-height: 130%;
+    margin-bottom: 20px;
+}
+.spare-parts__text p:last-child {
+    margin-bottom: 24px;
+}
+@media (min-width: 400px) {
+    .spare-parts__form {
+        max-width: 800px;
+    }
+}
+.spare-parts__form-group {
+    position: relative;
+}
+.spare-parts__form-group input, .spare-parts__form-group textarea, .spare-parts__form-group select {
+    box-sizing: border-box;
+    width: 280px;
+    height: 48px;
+    border: none;
+    margin-bottom: 30px;
+    font-family: "Montserrat";
+    font-size: 13px;
+    line-height: 130%;
+    padding: 15px 0px 16px 38px;
+}
+@media (min-width: 400px) {
+    .spare-parts__form-group input, .spare-parts__form-group textarea, .spare-parts__form-group select {
+        width: 100%;
+        height: 60px;
+        font-size: 16px;
+        padding: 19px 0px 20px 56px;
+    }
+}
+.spare-parts__form-group input::placeholder, .spare-parts__form-group textarea::placeholder, .spare-parts__form-group select::placeholder {
+    font-family: "Montserrat";
+    font-size: 13px;
+    line-height: 130%;
+    color: #000;
+}
+@media (min-width: 400px) {
+    .spare-parts__form-group input::placeholder, .spare-parts__form-group textarea::placeholder, .spare-parts__form-group select::placeholder {
+        font-size: 16px;
+    }
+}
+.spare-parts__button {
+    margin-bottom: 50px;
+}
+.spare-parts__button button {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 130%;
+    color: #fff;
+    width: 280px;
+    height: 48px;
+    padding: 16px 72px;
+    background-color: #FF7300;
+    border: 1px solid transparent;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.spare-parts__button button:hover {
+    background-color: #fff;
+    transition: all 0.3s linear;
+    color: #000;
+    border: 1px solid #FF7300;
+}
+@media (min-width: 400px) {
+    .spare-parts__button button {
+        width: 100%;
+        height: 60px;
+        font-size: 16px;
+    }
+}
+@media (min-width: 1200px) {
+    .spare-parts__button button {
+        width: 318px;
+    }
+}
+.spare-parts__footer-text p {
+    font-size: 16px;
+    line-height: 130%;
+    margin-bottom: 16px;
+}
+@media (min-width: 1200px) {
+    .spare-parts__footer-text p {
+        font-size: 18px;
+    }
+}
+.spare-parts__footer-contact {
+    max-width: 180px;
+}
+@media (min-width: 1200px) {
+    .spare-parts__footer-contact {
+        max-width: 200px;
+    }
+}
+.spare-parts__footer-contact img {
+    margin-right: 12px;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 3px;
+}
+@media (min-width: 400px) {
+    .spare-parts__footer-contact img {
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: 4px;
+    }
+}
+.spare-parts__footer-contact a {
+    display: inline-block;
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FF7300;
+}
+@media (min-width: 1200px) {
+    .spare-parts__footer-contact a {
+        font-size: 18px;
+    }
+}
+
+.spare-parts__form-group-icon-user,
+.spare-parts__form-group-icon-phone,
+.spare-parts__form-group-icon-mail,
+.spare-parts__form-group-icon-chat,
+.spare-parts__form-group-icon-question,
+.spare-parts__form-group-icon-jeep {
+    position: absolute;
+    top: 16px;
+    left: 12px;
+}
+.spare-parts__form-group-icon-user img,
+.spare-parts__form-group-icon-phone img,
+.spare-parts__form-group-icon-mail img,
+.spare-parts__form-group-icon-chat img,
+.spare-parts__form-group-icon-question img,
+.spare-parts__form-group-icon-jeep img {
+    width: 16px;
+    height: 16px;
+}
+@media (min-width: 400px) {
+    .spare-parts__form-group-icon-user img,
+.spare-parts__form-group-icon-phone img,
+.spare-parts__form-group-icon-mail img,
+.spare-parts__form-group-icon-chat img,
+.spare-parts__form-group-icon-question img,
+.spare-parts__form-group-icon-jeep img {
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: 4px;
+        left: 6px;
+    }
+}
+
+.news-main__menu-spare-parts ul {
+    box-shadow: 0px 0.2px 4px rgba(247, 249, 254, 0.25);
+    border-radius: 38px 0px 0px 38px;
+    height: 556px;
+}
+
+@media (min-width: 1200px) {
+    .spare-parts__form-group-name input,
+.spare-parts__form-group-chat select {
+        width: 800px;
+        height: 60px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .spare-parts__form-group-phone input,
+.spare-parts__form-group-mail input {
+        width: 385px;
+        height: 60px;
+    }
+}
+
+.service-request__form-group-icon-arrow {
+    position: absolute;
+    top: 18px;
+    right: 15px;
+    width: 10px;
+    height: 16px;
+}
+.service-request__form-group-icon-arrow img {
+    width: 100%;
+}
+@media (min-width: 400px) {
+    .service-request__form-group-icon-arrow {
+        top: 23px;
+        width: 15px;
+    }
+}
+
+.spare-parts-main__menu ul {
+    border-radius: 38px 0px 0px 38px;
+    height: 556px;
+}
+
+.spare-parts-main__menu ul.active {
+    border-radius: 0;
+    border-bottom: 1px solid #828282;
+    height: auto;
+}
+
+@media (min-width: 1200px) {
+    .spare-parts__form-group-phone-mail,
+.spare-parts__form-group-question-button {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.spare-parts__form-group textarea {
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    max-height: 200px;
+    min-height: 48px;
+    height: 48px;
+    margin-bottom: 30px;
+    font-family: "Montserrat";
+    font-size: 13px;
+    line-height: 130%;
+    padding: 15px 0px 16px 38px;
+    resize: vertical;
+}
+@media (min-width: 400px) {
+    .spare-parts__form-group textarea {
+        height: 60px;
+        min-height: 60px;
+        max-height: 200px;
+        font-size: 16px;
+        padding: 20px 0px 20px 56px;
+        resize: vertical;
+    }
+}
+@media (min-width: 1200px) {
+    .spare-parts__form-group textarea {
+        width: 452px;
+        min-width: 452px;
+        max-width: 452px;
+        height: 60px;
+        min-height: 60px;
+        max-height: 200px;
+        resize: vertical;
+    }
+}
+
+@media (min-width: 1200px) {
+    .spare-parts__form-group select {
+        width: 452px;
+        height: 60px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .spare-parts__form-group-calendar input {
+        width: 318px;
+        height: 60px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .spare-parts__form-group-select-calendar,
+.spare-parts__form-group-phone-mail,
+.spare-parts__form-group-textarea-button {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.support__item-spare-parts,
+.service-request__item-spare-parts,
+.modernization-request__item-spare-parts,
+.service__item-spare-parts,
+.guarantee__item-spare-parts {
+    display: none;
+}
+
+.service-request {
+    margin-top: 15px;
+    font-family: "Montserrat";
+}
+@media (min-width: 1200px) {
+    .service-request {
+        margin-top: 50px;
+    }
+}
+.service-request__item {
+    max-width: 280px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: 0 auto;
+}
+@media (min-width: 400px) {
+    .service-request__item {
+        max-width: none;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media (min-width: 1200px) {
+    .service-request__item {
+        margin-top: -12px;
+    }
+}
+.service-request__title {
+    font-family: "BebasNeuePro-Bold";
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+@media (min-width: 1200px) {
+    .service-request__title {
+        font-size: 62px;
+        margin-bottom: 40px;
+    }
+}
+.service-request__text {
+    max-width: 280px;
+}
+@media (min-width: 400px) {
+    .service-request__text {
+        max-width: 630px;
+        margin-bottom: 50px;
+    }
+}
+.service-request__text p {
+    font-size: 16px;
+    line-height: 130%;
+    margin-bottom: 10px;
+}
+.service-request__text p:last-child {
+    margin-bottom: 24px;
+}
+@media (min-width: 400px) {
+    .service-request__form {
+        max-width: 800px;
+    }
+}
+.service-request__form-group {
+    position: relative;
+}
+.service-request__form-group input, .service-request__form-group textarea, .service-request__form-group select {
+    box-sizing: border-box;
+    width: 280px;
+    height: 48px;
+    border: none;
+    margin-bottom: 30px;
+    font-family: "Montserrat";
+    font-size: 13px;
+    line-height: 130%;
+    padding: 15px 0px 16px 38px;
+}
+@media (min-width: 400px) {
+    .service-request__form-group input, .service-request__form-group textarea, .service-request__form-group select {
+        width: 100%;
+        height: 60px;
+        font-size: 16px;
+        padding: 19px 0px 20px 56px;
+    }
+}
+.service-request__form-group input::placeholder, .service-request__form-group textarea::placeholder, .service-request__form-group select::placeholder {
+    font-family: "Montserrat";
+    font-size: 13px;
+    line-height: 130%;
+    color: #000;
+}
+@media (min-width: 400px) {
+    .service-request__form-group input::placeholder, .service-request__form-group textarea::placeholder, .service-request__form-group select::placeholder {
+        font-size: 16px;
+    }
+}
+.service-request__button {
+    margin-bottom: 50px;
+}
+.service-request__button button {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 130%;
+    color: #fff;
+    width: 280px;
+    height: 48px;
+    padding: 16px 72px;
+    background-color: #FF7300;
+    border: 1px solid transparent;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.service-request__button button:hover {
+    background-color: #fff;
+    transition: all 0.3s linear;
+    color: #000;
+    border: 1px solid #FF7300;
+}
+@media (min-width: 400px) {
+    .service-request__button button {
+        width: 100%;
+        height: 60px;
+        font-size: 16px;
+    }
+}
+@media (min-width: 1200px) {
+    .service-request__button button {
+        width: 318px;
+    }
+}
+.service-request__footer-text p {
+    font-size: 16px;
+    line-height: 130%;
+    margin-bottom: 16px;
+}
+@media (min-width: 1200px) {
+    .service-request__footer-text p {
+        font-size: 18px;
+    }
+}
+.service-request__footer-contact {
+    max-width: 180px;
+}
+@media (min-width: 1200px) {
+    .service-request__footer-contact {
+        max-width: 200px;
+    }
+}
+.service-request__footer-contact img {
+    margin-right: 12px;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 3px;
+}
+@media (min-width: 400px) {
+    .service-request__footer-contact img {
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: 4px;
+    }
+}
+.service-request__footer-contact a {
+    display: inline-block;
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FF7300;
+}
+@media (min-width: 1200px) {
+    .service-request__footer-contact a {
+        font-size: 18px;
+    }
+}
+
+.service-request__form-group-icon-user,
+.service-request__form-group-icon-phone,
+.service-request__form-group-icon-mail,
+.service-request__form-group-icon-chat,
+.service-request__form-group-icon-question,
+.service-request__form-group-icon-jeep {
+    position: absolute;
+    top: 16px;
+    left: 12px;
+}
+.service-request__form-group-icon-user img,
+.service-request__form-group-icon-phone img,
+.service-request__form-group-icon-mail img,
+.service-request__form-group-icon-chat img,
+.service-request__form-group-icon-question img,
+.service-request__form-group-icon-jeep img {
+    width: 16px;
+    height: 16px;
+}
+@media (min-width: 400px) {
+    .service-request__form-group-icon-user img,
+.service-request__form-group-icon-phone img,
+.service-request__form-group-icon-mail img,
+.service-request__form-group-icon-chat img,
+.service-request__form-group-icon-question img,
+.service-request__form-group-icon-jeep img {
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: 4px;
+        left: 6px;
+    }
+}
+
+.news-main__menu-service-request ul {
+    box-shadow: 0px 0.2px 4px rgba(247, 249, 254, 0.25);
+    border-radius: 38px 0px 0px 38px;
+    height: 556px;
+}
+
+@media (min-width: 1200px) {
+    .service-request__form-group-name input,
+.service-request__form-group-chat select {
+        width: 800px;
+        height: 60px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .service-request__form-group-phone input,
+.service-request__form-group-mail input {
+        width: 385px;
+        height: 60px;
+    }
+}
+
+.service-request__form-group-icon-arrow {
+    position: absolute;
+    top: 18px;
+    right: 15px;
+    width: 10px;
+    height: 16px;
+}
+.service-request__form-group-icon-arrow img {
+    width: 100%;
+}
+@media (min-width: 400px) {
+    .service-request__form-group-icon-arrow {
+        top: 23px;
+        width: 15px;
+    }
+}
+
+.service-request-main__menu ul {
+    border-radius: 38px 0px 0px 38px;
+    height: 556px;
+}
+
+.service-request-main__menu ul.active {
+    border-radius: 0;
+    border-bottom: 1px solid #828282;
+    height: auto;
+}
+
+@media (min-width: 1200px) {
+    .service-request__form-group-phone-mail,
+.service-request__form-group-question-button {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.service-request__form-group textarea {
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    max-height: 200px;
+    min-height: 48px;
+    height: 48px;
+    margin-bottom: 30px;
+    font-family: "Montserrat";
+    font-size: 13px;
+    line-height: 130%;
+    padding: 15px 0px 16px 38px;
+    resize: vertical;
+}
+@media (min-width: 400px) {
+    .service-request__form-group textarea {
+        height: 60px;
+        min-height: 60px;
+        max-height: 200px;
+        font-size: 16px;
+        padding: 20px 0px 20px 56px;
+        resize: vertical;
+    }
+}
+@media (min-width: 1200px) {
+    .service-request__form-group textarea {
+        width: 452px;
+        min-width: 452px;
+        max-width: 452px;
+        height: 60px;
+        min-height: 60px;
+        max-height: 200px;
+        resize: vertical;
+    }
+}
+
+@media (min-width: 1200px) {
+    .service-request__form-group select {
+        width: 452px;
+        height: 60px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .service-request__form-group-calendar input {
+        width: 318px;
+        height: 60px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .service-request__form-group-select-calendar,
+.service-request__form-group-phone-mail,
+.service-request__form-group-textarea-button {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.support__item-service-request,
+.spare-parts__item-service-request,
+.modernization-request__item-service-request,
+.service__item-service-request,
+.guarantee__item-service-request {
+    display: none;
+}
+
+.accessories {
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: #000;
+    margin-top: 15px;
+}
+@media (min-width: 1200px) {
+    .accessories {
+        margin-top: 50px;
+    }
+}
+.accessories a {
+    text-decoration: none;
+}
+.accessories__item {
+    max-width: 280px;
+    margin: 0 auto;
+}
+@media (min-width: 600px) {
+    .accessories__item {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
+.accessories__title {
+    font-family: "BebasNeuePro-Bold";
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 120%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+@media (min-width: 600px) {
+    .accessories__title {
+        font-size: 62px;
+        padding-left: 20px;
+    }
+}
+@media (min-width: 1200px) {
+    .accessories__title {
+        padding-left: 0;
+    }
+}
+.accessories__text {
+    margin-bottom: 60px;
+}
+.accessories__text p {
+    font-size: 16px;
+    line-height: 130%;
+    margin-bottom: 15px;
+}
+@media (min-width: 600px) {
+    .accessories__text p {
+        font-size: 18px;
+        padding-left: 20px;
+    }
+}
+.accessories__text p:last-child {
+    margin-bottom: 18px;
+}
+@media (min-width: 1200px) {
+    .accessories__text p {
+        padding-left: 0;
+    }
+}
+.accessories__block-models {
+    max-width: 280px;
+    margin: 0 auto;
+}
+@media (min-width: 1000px) {
+    .accessories__block-models {
+        max-width: 800px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.accessories__block-model:last-child {
+    margin-top: -60px;
+}
+@media (min-width: 1000px) {
+    .accessories__block-model:last-child {
+        margin-top: 4px;
+    }
+}
+.accessories__block-model-image {
+    max-width: 199px;
+    max-height: 180px;
+    margin: 0 auto;
+    margin-bottom: 33px;
+}
+.accessories__block-model-image img {
+    width: 100%;
+    height: 100%;
+}
+@media (min-width: 1200px) {
+    .accessories__block-model-image {
+        max-width: 352px;
+        max-height: 320px;
+    }
+    .accessories__block-model-image img {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (min-width: 1200px) {
+    .accessories__block-model-image--right {
+        margin-bottom: 45px;
+    }
+}
+@media (min-width: 1000px) {
+    .accessories__block-model-image--right {
+        margin-bottom: 38px;
+    }
+}
+.accessories__block-model-text p {
+    padding-bottom: 86px;
+    font-family: "BebasNeuePro-Bold";
+    font-size: 28px;
+    line-height: 120%;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+}
+@media (min-width: 1000px) {
+    .accessories__block-model-text p {
+        font-size: 32px;
+        max-width: 360px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+.accessories-main__menu ul {
+    border-radius: 38px 0px 0px 38px;
+    height: 238px;
+}
+
+.accessories-main__menu ul.active {
+    border-radius: 0;
+    border-bottom: 1px solid #828282;
+    height: auto;
+}
+
+.tires__item-accessories {
+    display: none;
+}
+
+.accessories-track-2 {
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: #000;
+    margin-top: 15px;
+}
+@media (min-width: 900px) {
+    .accessories-track-2 {
+        margin-top: 50px;
+    }
+}
+.accessories-track-2__item {
+    max-width: 280px;
+    margin: 0 auto;
+}
+@media (min-width: 900px) {
+    .accessories-track-2__item {
+        max-width: 800px;
+        margin: 0 auto;
+        margin-top: -12px;
+    }
+}
+.accessories-track-2__title {
+    font-family: "BebasNeuePro-Bold";
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 120%;
+    text-transform: uppercase;
+    padding-right: 10px;
+    margin-bottom: 34px;
+}
+@media (min-width: 900px) {
+    .accessories-track-2__title {
+        font-size: 62px;
+    }
+}
+
+.swiper-container-accessories-track-2 {
+    width: 300px;
+}
+@media (min-width: 900px) {
+    .swiper-container-accessories-track-2 {
+        display: none;
+    }
+}
+
+.swiper-slide-accessories-track-2-image {
+    max-width: 257px;
+    max-height: 168px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.swiper-slide-accessories-track-2-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.accessories-track-2__blocks {
+    display: none;
+}
+@media (min-width: 900px) {
+    .accessories-track-2__blocks {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.accessories-track-2__block-image {
+    width: 230px;
+    height: 154px;
+    margin-bottom: 138px;
+    margin-right: 55px;
+}
+.accessories-track-2__block-image img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 24px;
+}
+
+.accessories-track-2__block-image--right {
+    margin-right: 0;
+}
+
+.accessories-track-2__block {
+    text-align: center;
+}
+
+.swiper-slide-accessories-track-2-image img {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.swiper-slide-accessories-track-2 p {
+    max-width: 250px;
+    text-align: center;
+    padding: 0px 27px;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+.fancybox-infobar {
+    display: none;
+}
+
+.fancybox-toolbar {
+    background-color: #000;
+    position: absolute;
+    top: 250px;
+}
+@media (min-width: 350px) {
+    .fancybox-toolbar {
+        top: 220px;
+    }
+}
+@media (min-width: 400px) {
+    .fancybox-toolbar {
+        top: 200px;
+    }
+}
+@media (min-width: 450px) {
+    .fancybox-toolbar {
+        top: 180px;
+    }
+}
+@media (min-width: 500px) {
+    .fancybox-toolbar {
+        top: 160px;
+    }
+}
+@media (min-width: 600px) {
+    .fancybox-toolbar {
+        top: 140px;
+    }
+}
+@media (min-width: 650px) {
+    .fancybox-toolbar {
+        top: 120px;
+    }
+}
+@media (min-width: 700px) {
+    .fancybox-toolbar {
+        top: 100px;
+    }
+}
+@media (min-width: 800px) {
+    .fancybox-toolbar {
+        top: 80px;
+    }
+}
+@media (min-width: 900px) {
+    .fancybox-toolbar {
+        top: 0px;
+    }
+}
+
+.fancybox-navigation .fancybox-button--arrow_right {
+    background-color: #000;
+}
+
+.fancybox-navigation .fancybox-button--arrow_left {
+    background-color: #000;
+}
+
+.fancybox-image {
+    max-width: auto;
+    max-height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+.fancybox-image img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.accessories-track-2-main__menu ul {
+    border-radius: 38px 0px 0px 38px;
+    height: 238px;
+}
+
+.accessories-track-2-main__menu ul.active {
+    border-radius: 0;
+    border-bottom: 1px solid #828282;
+    height: auto;
+}
+
+.tabs__nav-btn-accessories {
+    text-decoration: none;
+    color: #000;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 500;
+}
+.tabs__nav-btn-accessories svg {
+    top: 2px;
+}
+
+.tires-tab svg {
+    position: relative;
+    top: -12px;
+}
+
+.tires__item-accessories-track-2 {
+    display: none;
+}
+
+.tires__item-accessories-track-2 {
+    max-width: 100%;
+}
+@media (min-width: 1280px) {
+    .tires__item-accessories-track-2 {
+        max-width: 1060px;
+    }
+}
+
+.news-main__wrapper-item h2 {
+    color: #fff;
+}
+
+.become-dealer {
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: #000;
+    margin-top: 15px;
+}
+@media (min-width: 1200px) {
+    .become-dealer {
+        margin-top: 50px;
+    }
+}
+.become-dealer__item {
+    max-width: 298px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+@media (min-width: 400px) {
+    .become-dealer__item {
+        max-width: 1240px;
+        padding: 0px 20px;
+        margin: 40 auto 0;
+    }
+}
+@media (min-width: 1200px) {
+    .become-dealer__item {
+        padding: 0;
+    }
+}
+.become-dealer__title {
+    font-family: "BebasNeuePro-Bold";
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 120%;
+    text-transform: uppercase;
+    padding-right: 60px;
+    margin-bottom: 30px;
+}
+@media (min-width: 1200px) {
+    .become-dealer__title {
+        font-size: 62px;
+        margin-left: 40px;
+        margin-bottom: 40px;
+    }
+}
+.become-dealer__block {
+    border: 1px solid #000;
+    margin-bottom: 30px;
+}
+@media (min-width: 1200px) {
+    .become-dealer__block {
+        margin-bottom: 60px;
+    }
+}
+.become-dealer__block-title {
+    font-size: 18px;
+    line-height: 130%;
+    margin-bottom: 30px;
+    padding: 40px 9px 0px 9px;
+}
+@media (min-width: 1200px) {
+    .become-dealer__block-title {
+        font-size: 32px;
+        padding-left: 40px;
+    }
+}
+.become-dealer__block-form {
+    padding: 0px 9px;
+}
+@media (min-width: 1200px) {
+    .become-dealer__block-form {
+        padding: 0px 40px;
+    }
+}
+.become-dealer__block-form-group {
+    max-width: 280px;
+}
+@media (min-width: 400px) {
+    .become-dealer__block-form-group {
+        max-width: 1160px;
+    }
+}
+@media (min-width: 1200px) {
+    .become-dealer__block-form-group {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.become-dealer__block-form-group label {
+    display: block;
+    font-size: 14px;
+    line-height: 130%;
+    font-style: italic;
+    margin-bottom: 14px;
+}
+@media (min-width: 1200px) {
+    .become-dealer__block-form-group label {
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+        margin-right: 40px;
+        max-width: 460px;
+        vertical-align: middle;
+        align-items: center;
+        margin-top: 15px;
+        padding-right: 10px;
+    }
+}
+.become-dealer__block-form-group input {
+    box-sizing: border-box;
+    display: block;
+    border: none;
+    width: 280px;
+    height: 48px;
+    padding-left: 12px;
+    margin-bottom: 30px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 130%;
+    color: #333;
+}
+@media (min-width: 400px) {
+    .become-dealer__block-form-group input {
+        width: 100%;
+    }
+}
+@media (min-width: 1200px) {
+    .become-dealer__block-form-group input {
+        width: 660px;
+        height: 60px;
+        font-size: 16px;
+        margin-bottom: 50px;
+        padding-left: 20px;
+    }
+}
+.become-dealer__block-button button {
+    display: block;
+    width: 280px;
+    height: 48px;
+    margin: 0 auto;
+    background: #FF7300;
+    font-family: "Montserrat";
+    font-size: 12px;
+    line-height: 130%;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    margin-bottom: 16px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+@media (min-width: 600px) {
+    .become-dealer__block-button button {
+        width: 500px;
+        height: 62px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+}
+.become-dealer__block-button button:hover {
+    background-color: #fff;
+    transition: all 0.3s linear;
+    border: 1px solid #FF7300;
+    color: #000;
+}
+.become-dealer__block__policy-link {
+    width: 280px;
+    margin: 0 auto;
+}
+@media (min-width: 600px) {
+    .become-dealer__block__policy-link {
+        width: 500px;
+    }
+}
+.become-dealer__block__policy-link p {
+    font-family: "Montserrat";
+    font-size: 13px;
+    line-height: 120%;
+    text-align: center;
+    color: #000;
+}
+@media (min-width: 600px) {
+    .become-dealer__block__policy-link p {
+        font-size: 14px;
+    }
+}
+.become-dealer__block__policy-link a {
+    font-family: "Montserrat";
+    font-size: 13px;
+    line-height: 120%;
+    text-align: center;
+    color: #000;
+    padding: 0px 10px;
+    margin-bottom: 90px;
+}
+@media (min-width: 1200px) {
+    .become-dealer__block__policy-link a {
+        font-size: 14px;
+    }
+}
+
+.become-dealer__block-form-group--last input {
+    margin-bottom: 40px;
+}
+
+.become-dealer__block-form-group textarea {
+    box-sizing: border-box;
+    width: 280px;
+    min-width: 280px;
+    max-width: 280px;
+    height: 48px;
+    min-height: 48px;
+    max-height: 200px;
+    border: none;
+    margin-bottom: 40px;
+    padding: 15px 9px 16px 12px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 130%;
+    color: #333;
+}
+@media (min-width: 400px) {
+    .become-dealer__block-form-group textarea {
+        width: 100%;
+        min-width: 100%;
+    }
+}
+@media (min-width: 1200px) {
+    .become-dealer__block-form-group textarea {
+        width: 660px;
+        height: 60px;
+        min-width: 660px;
+        max-width: 660px;
+        height: 60px;
+        min-height: 60px;
+        max-height: 300px;
+        padding: 20px;
+        font-size: 16px;
+    }
+}
+
+.become-dealer__block-form-group input::placeholder {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 130%;
+    color: #BDBDBD;
+}
+@media (min-width: 1200px) {
+    .become-dealer__block-form-group input::placeholder {
+        font-size: 16px;
+    }
+}
+
+.bredcrumbs-third-back--mobile a {
+    display: inline-block;
+    padding-left: 6px;
+    cursor: pointer;
+    font-family: "Montserrat";
+    font-size: 11px;
+    line-height: 120%;
+}
+@media (min-width: 1200px) {
+    .bredcrumbs-third-back--mobile {
+        display: none;
+    }
+}
+
+.bredcrumbs-third-back--desktop {
+    display: none;
+}
+@media (min-width: 1200px) {
+    .bredcrumbs-third-back--desktop {
+        display: block;
+        padding-left: 25px;
+    }
+}
+.bredcrumbs-third-back--desktop a {
+    display: inline-block;
+    padding-left: 14px;
+    cursor: pointer;
+    font-family: "Montserrat";
+    font-size: 16px;
+    line-height: 120%;
+}
+
+body.lock {
+    overflow: hidden;
+}
+
+.find-dealer {
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: #000;
+    margin-top: 15px;
+}
+.find-dealer__desktop {
+    display: none;
+}
+@media (min-width: 1200px) {
+    .find-dealer__desktop {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1160px;
+        margin: 0 auto;
+        margin-top: 73px;
+    }
+}
+.find-dealer__inner {
+    max-width: 280px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
+@media (min-width: 1200px) {
+    .find-dealer__inner {
+        max-width: 1160px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 120px;
+        height: auto;
+    }
+}
+.find-dealer__item {
+    margin-right: 40px;
+}
+.find-dealer__title {
+    font-family: "BebasNeuePro-Bold";
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 120%;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.find-dealer__button button {
+    width: 280px;
+    height: 48px;
+    margin: 0 auto;
+    background: #FF7300;
+    font-family: "Montserrat";
+    font-size: 12px;
+    line-height: 130%;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    margin-bottom: 40px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    border: 1px solid transparent;
+}
+.find-dealer__button button:hover {
+    background-color: #fff;
+    color: #000;
+    transition: all 0.3s linear;
+    border: 1px solid #FF7300;
+}
+.find-dealer__subtitle {
+    font-size: 16px;
+    line-height: 122%;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+@media (min-width: 1200px) {
+    .find-dealer__subtitle {
+        font-size: 18px;
+        margin-bottom: 17px;
+    }
+}
+.find-dealer__select-city-text label {
+    display: block;
+    font-size: 16px;
+    line-height: 122%;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #828282;
+}
+@media (min-width: 1200px) {
+    .find-dealer__select-city-text label {
+        font-size: 18px;
+    }
+}
+.find-dealer__select-city-text {
+    position: relative;
+}
+.find-dealer__select-city-text select {
+    width: 280px;
+    height: 48px;
+    padding-left: 12px;
+    font-family: "Montserrat";
+    font-size: 13px;
+    line-height: 130%;
+    font-weight: 400;
+    border: none;
+    margin-bottom: 30px;
+}
+@media (min-width: 1200px) {
+    .find-dealer__select-city-text select {
+        width: 460px;
+        height: 60px;
+        font-size: 16px;
+    }
+}
+.find-dealer__select-city-text svg {
+    position: absolute;
+    top: 20px;
+    right: -25px;
+    width: 8px;
+    height: 14px;
+}
+@media (min-width: 1200px) {
+    .find-dealer__select-city-text svg {
+        top: 23px;
+        right: 20px;
+        width: 18px;
+        height: 18px;
+    }
+}
+.find-dealer__select-city-text ul li {
+    list-style: none;
+    cursor: pointer;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+.find-dealer__select {
+    position: relative;
+    margin-bottom: 30px;
+    border: 1px solid transparent;
+    transition: all 0.3s linear;
+}
+.find-dealer__select:hover {
+    border: 1px solid #FF7300;
+    transition: all 0.3s linear;
+}
+.find-dealer__select option {
+    font-family: "Montserrat";
+    font-size: 13px;
+    line-height: 130%;
+    font-weight: 400;
+}
+@media (min-width: 1200px) {
+    .find-dealer__select option {
+        font-size: 16px;
+    }
+}
+.find-dealer__select svg {
+    position: absolute;
+    top: 18px;
+    right: 12px;
+    width: 8px;
+    height: 14px;
+}
+@media (min-width: 1200px) {
+    .find-dealer__select svg {
+        width: 16px;
+        height: 26px;
+        right: 22px;
+        top: 17px;
+    }
+}
+.find-dealer__block-addresses a {
+    color: #000;
+    text-decoration: none;
+}
+@media (min-width: 1200px) {
+    .find-dealer__block-addresses {
+        height: 744px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .find-dealer__block-addresses::-webkit-scrollbar {
+        width: 8px;
+    }
+    .find-dealer__block-addresses::-webkit-scrollbar-thumb {
+        height: 38px;
+        background: #828282;
+        border-radius: 18px;
+    }
+    .find-dealer__block-addresses::-webkit-scrollbar-track {
+        background-color: #E0E0E0;
+        border: 4px solid #E0E0E0;
+        background-clip: content-box;
+    }
+}
+.find-dealer__block-address {
+    box-sizing: border-box;
+    width: 280px;
+    height: 260px;
+    background-color: #fff;
+    padding-left: 14px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid transparent;
+    transition: all 0.3s linear;
+}
+.find-dealer__block-address:last-child {
+    margin-bottom: 90px;
+}
+@media (min-width: 1200px) {
+    .find-dealer__block-address {
+        width: 460px;
+        height: 228px;
+    }
+    .find-dealer__block-address:hover {
+        border: 1px solid #FF7300;
+        transition: all 0.3s linear;
+    }
+}
+.find-dealer__block-address-title h3 {
+    font-family: "Montserrat";
+    font-size: 18px;
+    line-height: 122%;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+@media (min-width: 1200px) {
+    .find-dealer__block-address-title h3 {
+        margin-bottom: 20px;
+    }
+}
+.find-dealer__block-address-text p {
+    font-size: 14px;
+    line-height: 130%;
+    padding-right: 25px;
+}
+.find-dealer__block-address-text p:nth-child(2) {
+    margin-bottom: 20px;
+}
+@media (min-width: 1200px) {
+    .find-dealer__block-address-text p {
+        font-size: 16px;
+    }
+}
+.find-dealer__block-address-text a {
+    text-decoration: underline;
+}
+.find-dealer__block-address-link a {
+    font-family: "Montserrat";
+    font-size: 14px;
+    line-height: 130%;
+    margin-bottom: 20px;
+    color: #000;
+}
+@media (min-width: 1200px) {
+    .find-dealer__block-address-link a {
+        display: none;
+    }
+}
+.find-dealer__block-address-note p {
+    font-size: 14px;
+    line-height: 130%;
+    padding-bottom: 30px;
+}
+@media (min-width: 1200px) {
+    .find-dealer__block-address-note p {
+        font-size: 16px;
+    }
+}
+
+.find-dealer__title-desktop {
+    display: none;
+}
+@media (min-width: 1200px) {
+    .find-dealer__title-desktop {
+        display: block;
+        font-family: "BebasNeuePro-Bold";
+        font-size: 62px;
+        font-weight: 700;
+        line-height: 120%;
+        text-transform: uppercase;
+    }
+}
+
+.find-dealer__button-desktop button {
+    display: none;
+}
+@media (min-width: 1200px) {
+    .find-dealer__button-desktop button {
+        display: block;
+        width: 290px;
+        height: 62px;
+        margin-top: 5px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .find-dealer__title-mobile,
+.find-dealer__button-mobile {
+        display: none;
+    }
+}
+
+.find-dealer__item--left {
+    max-height: auto;
+    max-width: 280px;
+    max-width: 460px;
+}
+.find-dealer__item--right {
+    display: none;
+}
+@media (min-width: 1200px) {
+    .find-dealer__item--right {
+        display: block;
+    }
+}
+
+.find-dealer__map-desktop {
+    width: 660px;
+    height: 915px;
+    position: relative;
+    /** Modals  **/
+}
+.find-dealer__map-desktop img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.find-dealer__map-desktop svg {
+    position: absolute;
+    cursor: pointer;
+    bottom: 180px;
+    left: 106px;
+}
+.find-dealer__map-desktop svg:nth-child(1) {
+    bottom: 180px;
+    left: 106px;
+}
+.find-dealer__map-desktop svg:nth-child(1):hover {
+    fill: #FF7300;
+}
+.find-dealer__map-desktop svg:nth-child(1):hover rect {
+    fill: #FF7300;
+}
+.find-dealer__map-desktop svg:nth-child(2) {
+    bottom: 203px;
+    left: 270px;
+}
+.find-dealer__map-desktop svg:nth-child(2):hover {
+    fill: #FF7300;
+}
+.find-dealer__map-desktop svg:nth-child(2):hover rect {
+    fill: #FF7300;
+}
+.find-dealer__map-desktop svg:nth-child(3) {
+    top: 349px;
+    left: 234px;
+}
+.find-dealer__map-desktop svg:nth-child(3):hover {
+    fill: #FF7300;
+}
+.find-dealer__map-desktop svg:nth-child(3):hover rect {
+    fill: #FF7300;
+}
+.find-dealer__map-desktop svg:nth-child(4) {
+    top: 248px;
+    right: 134px;
+}
+.find-dealer__map-desktop svg:nth-child(4):hover {
+    fill: #FF7300;
+}
+.find-dealer__map-desktop svg:nth-child(4):hover rect {
+    fill: #FF7300;
+}
+
+.modal {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal.show {
+    display: block;
+}
+
+.modal__inner {
+    max-width: 320px;
+    max-height: 549px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.modal__close {
+    width: 36px;
+    height: 36px;
+    background-color: #EDEEF0;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    outline: none;
+}
+.modal__close:active {
+    border: none;
+}
+.modal__close img {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.footer-wrapper__middle-social svg:hover {
+    fill: red;
+}
+
+.modernization-request {
+    margin-top: 15px;
+    font-family: "Montserrat";
+}
+@media (min-width: 1200px) {
+    .modernization-request {
+        margin-top: 50px;
+    }
+}
+.modernization-request__item {
+    max-width: 280px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: 0 auto;
+}
+@media (min-width: 400px) {
+    .modernization-request__item {
+        max-width: none;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media (min-width: 1200px) {
+    .modernization-request__item {
+        margin-top: -10px;
+    }
+}
+.modernization-request__title {
+    font-family: "BebasNeuePro-Bold";
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+@media (min-width: 1200px) {
+    .modernization-request__title {
+        font-size: 62px;
+        margin-bottom: 40px;
+    }
+}
+.modernization-request__text {
+    max-width: 280px;
+}
+@media (min-width: 400px) {
+    .modernization-request__text {
+        max-width: 630px;
+        margin-bottom: 50px;
+    }
+}
+.modernization-request__text p {
+    font-size: 16px;
+    line-height: 130%;
+    margin-bottom: 10px;
+}
+.modernization-request__text p:last-child {
+    margin-bottom: 24px;
+}
+@media (min-width: 400px) {
+    .modernization-request__form {
+        max-width: 800px;
+    }
+}
+.modernization-request__form-group {
+    position: relative;
+}
+.modernization-request__form-group input, .modernization-request__form-group textarea, .modernization-request__form-group select {
+    box-sizing: border-box;
+    width: 280px;
+    height: 48px;
+    border: none;
+    margin-bottom: 30px;
+    font-family: "Montserrat";
+    font-size: 13px;
+    line-height: 130%;
+    padding: 15px 0px 16px 38px;
+}
+@media (min-width: 400px) {
+    .modernization-request__form-group input, .modernization-request__form-group textarea, .modernization-request__form-group select {
+        width: 100%;
+        height: 60px;
+        font-size: 16px;
+        padding: 19px 0px 20px 56px;
+    }
+}
+.modernization-request__form-group input::placeholder, .modernization-request__form-group textarea::placeholder, .modernization-request__form-group select::placeholder {
+    font-family: "Montserrat";
+    font-size: 13px;
+    line-height: 130%;
+    color: #000;
+}
+@media (min-width: 400px) {
+    .modernization-request__form-group input::placeholder, .modernization-request__form-group textarea::placeholder, .modernization-request__form-group select::placeholder {
+        font-size: 16px;
+    }
+}
+.modernization-request__button {
+    margin-bottom: 50px;
+}
+.modernization-request__button button {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 130%;
+    color: #fff;
+    width: 280px;
+    height: 48px;
+    padding: 16px 72px;
+    background-color: #FF7300;
+    border: 1px solid transparent;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.modernization-request__button button:hover {
+    background-color: #fff;
+    transition: all 0.3s linear;
+    color: #000;
+    border: 1px solid #FF7300;
+}
+@media (min-width: 400px) {
+    .modernization-request__button button {
+        width: 100%;
+        height: 60px;
+        font-size: 16px;
+    }
+}
+@media (min-width: 1200px) {
+    .modernization-request__button button {
+        width: 318px;
+    }
+}
+.modernization-request__footer-text p {
+    font-size: 16px;
+    line-height: 130%;
+    margin-bottom: 16px;
+}
+@media (min-width: 1200px) {
+    .modernization-request__footer-text p {
+        font-size: 18px;
+    }
+}
+.modernization-request__footer-contact {
+    max-width: 180px;
+}
+@media (min-width: 1200px) {
+    .modernization-request__footer-contact {
+        max-width: 200px;
+    }
+}
+.modernization-request__footer-contact img {
+    margin-right: 12px;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 3px;
+}
+@media (min-width: 400px) {
+    .modernization-request__footer-contact img {
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: 4px;
+    }
+}
+.modernization-request__footer-contact a {
+    display: inline-block;
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FF7300;
+}
+@media (min-width: 1200px) {
+    .modernization-request__footer-contact a {
+        font-size: 18px;
+    }
+}
+
+.modernization-request__form-group-icon-user,
+.modernization-request__form-group-icon-phone,
+.modernization-request__form-group-icon-mail,
+.modernization-request__form-group-icon-chat,
+.modernization-request__form-group-icon-question,
+.modernization-request__form-group-icon-jeep {
+    position: absolute;
+    top: 16px;
+    left: 12px;
+}
+.modernization-request__form-group-icon-user img,
+.modernization-request__form-group-icon-phone img,
+.modernization-request__form-group-icon-mail img,
+.modernization-request__form-group-icon-chat img,
+.modernization-request__form-group-icon-question img,
+.modernization-request__form-group-icon-jeep img {
+    width: 16px;
+    height: 16px;
+}
+@media (min-width: 400px) {
+    .modernization-request__form-group-icon-user img,
+.modernization-request__form-group-icon-phone img,
+.modernization-request__form-group-icon-mail img,
+.modernization-request__form-group-icon-chat img,
+.modernization-request__form-group-icon-question img,
+.modernization-request__form-group-icon-jeep img {
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: 4px;
+        left: 6px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .modernization-request__form-group-name input,
+.modernization-request__form-group-chat select {
+        width: 800px;
+        height: 60px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .modernization-request__form-group-phone input,
+.modernization-request__form-group-mail input {
+        width: 385px;
+        height: 60px;
+    }
+}
+
+.modernization-request__form-group-icon-arrow {
+    position: absolute;
+    top: 18px;
+    right: 15px;
+    width: 10px;
+    height: 16px;
+}
+.modernization-request__form-group-icon-arrow img {
+    width: 100%;
+}
+@media (min-width: 400px) {
+    .modernization-request__form-group-icon-arrow {
+        top: 23px;
+        width: 15px;
+    }
+}
+
+.modernization-request-news-main__menu ul {
+    border-radius: 38px 0px 0px 38px;
+    height: 556px;
+}
+
+.modernization-request-news-main__menu ul.active {
+    border-radius: 0;
+    border-bottom: 1px solid #828282;
+    height: auto;
+}
+
+@media (min-width: 1200px) {
+    .modernization-request__form-group-phone-mail,
+.modernization-request__form-group-question-button {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.modernization-request__form-group textarea {
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    max-height: 200px;
+    min-height: 48px;
+    height: 48px;
+    margin-bottom: 30px;
+    font-family: "Montserrat";
+    font-size: 13px;
+    line-height: 130%;
+    padding: 15px 0px 16px 38px;
+    resize: vertical;
+}
+@media (min-width: 400px) {
+    .modernization-request__form-group textarea {
+        height: 60px;
+        min-height: 60px;
+        max-height: 200px;
+        font-size: 16px;
+        padding: 20px 0px 20px 56px;
+        resize: vertical;
+    }
+}
+@media (min-width: 1200px) {
+    .modernization-request__form-group textarea {
+        width: 452px;
+        min-width: 452px;
+        max-width: 452px;
+        height: 60px;
+        min-height: 60px;
+        max-height: 200px;
+        resize: vertical;
+    }
+}
+
+@media (min-width: 1200px) {
+    .modernization-request__form-group select {
+        width: 452px;
+        height: 60px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .modernization-request__form-group-calendar input {
+        width: 318px;
+        height: 60px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .modernization-request__form-group-select-calendar,
+.modernization-request__form-group-phone-mail,
+.modernization-request__form-group-textarea-button {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.support__item-modernization-request,
+.spare-parts__item-modernization-request,
+.service-request__item-modernization-request,
+.service__item-modernization-request,
+.guarantee__item-modernization-request {
+    display: none;
+}
+
+.service {
+    margin-top: 15px;
+    font-family: "Montserrat";
+}
+@media (min-width: 1200px) {
+    .service {
+        margin-top: 50px;
+    }
+}
+.service__item {
+    max-width: 280px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: 0 auto;
+}
+@media (min-width: 400px) {
+    .service__item {
+        max-width: none;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media (min-width: 1200px) {
+    .service__item {
+        margin-top: -10px;
+    }
+}
+.service__title {
+    font-family: "BebasNeuePro-Bold";
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+@media (min-width: 1200px) {
+    .service__title {
+        font-size: 62px;
+        margin-bottom: 40px;
+    }
+}
+.service__text {
+    max-width: 280px;
+}
+@media (min-width: 400px) {
+    .service__text {
+        max-width: 630px;
+        margin-bottom: 50px;
+    }
+}
+.service__text p {
+    font-size: 16px;
+    line-height: 130%;
+    margin-bottom: 10px;
+}
+.service__text p:last-child {
+    margin-bottom: 24px;
+}
+@media (min-width: 400px) {
+    .service__form {
+        max-width: 800px;
+    }
+}
+.service__form-group {
+    position: relative;
+}
+.service__form-group input, .service__form-group textarea, .service__form-group select {
+    box-sizing: border-box;
+    width: 280px;
+    height: 48px;
+    border: none;
+    margin-bottom: 30px;
+    font-family: "Montserrat";
+    font-size: 13px;
+    line-height: 130%;
+    padding: 15px 0px 16px 38px;
+}
+@media (min-width: 400px) {
+    .service__form-group input, .service__form-group textarea, .service__form-group select {
+        width: 100%;
+        height: 60px;
+        font-size: 16px;
+        padding: 19px 0px 20px 56px;
+    }
+}
+.service__form-group input::placeholder, .service__form-group textarea::placeholder, .service__form-group select::placeholder {
+    font-family: "Montserrat";
+    font-size: 13px;
+    line-height: 130%;
+    color: #000;
+}
+@media (min-width: 400px) {
+    .service__form-group input::placeholder, .service__form-group textarea::placeholder, .service__form-group select::placeholder {
+        font-size: 16px;
+    }
+}
+.service__button {
+    margin-bottom: 50px;
+}
+.service__button button {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 130%;
+    color: #fff;
+    width: 280px;
+    height: 48px;
+    padding: 16px 72px;
+    background-color: #FF7300;
+    border: 1px solid transparent;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.service__button button:hover {
+    background-color: #fff;
+    transition: all 0.3s linear;
+    color: #000;
+    border: 1px solid #FF7300;
+}
+@media (min-width: 400px) {
+    .service__button button {
+        width: 100%;
+        height: 60px;
+        font-size: 16px;
+    }
+}
+@media (min-width: 1200px) {
+    .service__button button {
+        width: 318px;
+    }
+}
+.service__footer-text p {
+    font-size: 16px;
+    line-height: 130%;
+    margin-bottom: 16px;
+}
+@media (min-width: 1200px) {
+    .service__footer-text p {
+        font-size: 18px;
+    }
+}
+.service__footer-contact {
+    max-width: 180px;
+}
+@media (min-width: 1200px) {
+    .service__footer-contact {
+        max-width: 200px;
+    }
+}
+.service__footer-contact img {
+    margin-right: 12px;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 3px;
+}
+@media (min-width: 400px) {
+    .service__footer-contact img {
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: 4px;
+    }
+}
+.service__footer-contact a {
+    display: inline-block;
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FF7300;
+}
+@media (min-width: 1200px) {
+    .service__footer-contact a {
+        font-size: 18px;
+    }
+}
+
+.service__form-group-icon-user,
+.service__form-group-icon-phone,
+.service__form-group-icon-mail,
+.service__form-group-icon-chat,
+.service__form-group-icon-question,
+.service__form-group-icon-jeep {
+    position: absolute;
+    top: 16px;
+    left: 12px;
+}
+.service__form-group-icon-user img,
+.service__form-group-icon-phone img,
+.service__form-group-icon-mail img,
+.service__form-group-icon-chat img,
+.service__form-group-icon-question img,
+.service__form-group-icon-jeep img {
+    width: 16px;
+    height: 16px;
+}
+@media (min-width: 400px) {
+    .service__form-group-icon-user img,
+.service__form-group-icon-phone img,
+.service__form-group-icon-mail img,
+.service__form-group-icon-chat img,
+.service__form-group-icon-question img,
+.service__form-group-icon-jeep img {
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: 4px;
+        left: 6px;
+    }
+}
+
+.news-main__menu-service ul {
+    box-shadow: 0px 0.2px 4px rgba(247, 249, 254, 0.25);
+    border-radius: 38px 0px 0px 38px;
+    height: 556px;
+}
+
+@media (min-width: 1200px) {
+    .service__form-group-name input,
+.service__form-group-chat select {
+        width: 800px;
+        height: 60px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .service__form-group-phone input,
+.service__form-group-mail input {
+        width: 385px;
+        height: 60px;
+    }
+}
+
+.service__form-group-icon-arrow {
+    position: absolute;
+    top: 18px;
+    right: 15px;
+    width: 10px;
+    height: 16px;
+}
+.service__form-group-icon-arrow img {
+    width: 100%;
+}
+@media (min-width: 400px) {
+    .service__form-group-icon-arrow {
+        top: 23px;
+        width: 15px;
+    }
+}
+
+.service-main__menu ul {
+    border-radius: 38px 0px 0px 38px;
+    height: 556px;
+}
+
+.service-main__menu ul.active {
+    border-radius: 0;
+    border-bottom: 1px solid #828282;
+    height: auto;
+}
+
+.service__form-group textarea {
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    max-height: 200px;
+    min-height: 48px;
+    height: 48px;
+    margin-bottom: 30px;
+    font-family: "Montserrat";
+    font-size: 13px;
+    line-height: 130%;
+    padding: 15px 0px 16px 38px;
+    resize: vertical;
+}
+@media (min-width: 400px) {
+    .service__form-group textarea {
+        height: 60px;
+        min-height: 60px;
+        max-height: 200px;
+        font-size: 16px;
+        padding: 20px 0px 20px 56px;
+        resize: vertical;
+    }
+}
+@media (min-width: 1200px) {
+    .service__form-group textarea {
+        width: 452px;
+        min-width: 452px;
+        max-width: 452px;
+        height: 60px;
+        min-height: 60px;
+        max-height: 200px;
+        resize: vertical;
+    }
+}
+
+@media (min-width: 1200px) {
+    .service__form-group-location input {
+        width: 452px;
+        height: 60px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .service__form-group-serial-number input {
+        width: 318px;
+        height: 60px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .service__form-group-number-location,
+.service__form-group-phone-mail,
+.service__form-group-textarea-button {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 400px) {
+    .service__footer {
+        display: flex;
+    }
+    .service__footer-text {
+        margin-right: 18px;
+    }
+}
+
+.spare-parts__item-service,
+.service-request__item-service,
+.modernization-request__item-service,
+.support__item-service,
+.guarantee__item-service {
+    display: none;
+}
